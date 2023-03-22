@@ -4,7 +4,7 @@
 
 [Vitalik Buterin Ethereum Blockchain](https://www.youtube.com/watch?v=gjwr-7PgpN8)
       
-[Ethereum Foundation Dev Docs. Chapter “Foundational topics”](https://ethereum.org/en/developers/docs intro-to-ethereum/)
+[Ethereum Foundation Dev Docs Chapter Foundational topics](https://ethereum.org/en/developers/docsintro-to-ethereum/)
 
 ## Understanding the EVM
       
