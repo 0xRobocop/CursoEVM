@@ -1038,6 +1038,70 @@
           "0.8.17+commit.8df45f5f.Linux.gcc": "ArithmeticOP.t.sol/ArithmeticOperationTest.json"
         }
       }
+    },
+    "test/SimpleStorage.t.sol": {
+      "lastModificationDate": 1679513678756,
+      "contentHash": "0c7fe5e6c13e1ed4b6861afe42e44c98",
+      "sourceName": "test/SimpleStorage.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Base.sol",
+        "lib/forge-std/src/StdAssertions.sol",
+        "lib/forge-std/src/StdChains.sol",
+        "lib/forge-std/src/StdCheats.sol",
+        "lib/forge-std/src/StdError.sol",
+        "lib/forge-std/src/StdInvariant.sol",
+        "lib/forge-std/src/StdJson.sol",
+        "lib/forge-std/src/StdMath.sol",
+        "lib/forge-std/src/StdStorage.sol",
+        "lib/forge-std/src/StdStyle.sol",
+        "lib/forge-std/src/StdUtils.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/console.sol",
+        "lib/forge-std/src/console2.sol",
+        "lib/forge-std/src/interfaces/IMulticall3.sol",
+        "lib/foundry-huff/lib/solidity-stringutils/strings.sol",
+        "lib/foundry-huff/src/HuffConfig.sol",
+        "lib/foundry-huff/src/HuffDeployer.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "SimpleStorage": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "SimpleStorage.t.sol/SimpleStorage.json"
+        },
+        "SimpleStoreTest": {
+          "0.8.17+commit.8df45f5f.Linux.gcc": "SimpleStorage.t.sol/SimpleStoreTest.json"
+        }
+      }
     }
   }
 }
